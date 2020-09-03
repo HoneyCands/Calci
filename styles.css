@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Dancing+Script:wght@500&family=Julius+Sans+One&family=Monoton&family=Pacifico&family=Poiret+One&family=Raleway+Dots&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+header {
+  height: 10vh;
+  color: aliceblue;
+  background-color: #1b1919;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.Main {
+  height: 90vh;
+  background-color: #272525;
+}
+
+.Screen {
+  height: 30vh;
+  background-color: #493f3f;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: aliceblue;
+}
+
+.Exp {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 15;
+  margin: 12px 10px;
+}
+
+.Res {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 10;
+  margin: 12px 10px;
+}
+
+.Buttons {
+  height: 60vh;
+  background-color: #3f3939;
+  display: grid;
+  padding: 1px;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.Buttons button {
+  font-size: 30px;
+}
